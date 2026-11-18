@@ -1,0 +1,19 @@
+name: science_signal
+version: 1.0.0+1
+description: ICA16 Class B science quiz
+publish_to: none
+environment:
+  sdk: '>=3.3.0 <4.0.0'
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^1.5.0
+  firebase_core: ^4.3.0
+  firebase_auth: ^6.1.0
+  cloud_firestore: ^6.1.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+flutter:
+  uses-material-design: true
